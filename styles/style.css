@@ -32,8 +32,8 @@
   --gradient-gold: linear-gradient(90deg, #FFD4A0 0%, #FFE9CE 100%);
   --gradient-green: linear-gradient(135deg, #025D49 0%, #143C36 100%);
 }
+
 html{
-    overflow-x: hidden;
     scroll-behavior: smooth;
     background-color: var(--color-background-desktop);
 }
@@ -45,6 +45,7 @@ html{
   padding-left: 15px;
   padding-right: 15px;
   margin: auto;
+  overflow-x: hidden;
 }
 
 /* Header */
@@ -294,7 +295,7 @@ html{
         display: flex;
         margin: auto;
         align-items: center;
-        width: 996px;
+        max-width: 996px;
         justify-content: space-between;
         position: relative;
         top: -51px;
